@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textViewQ3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q3. How many languages are spoken in India (according to the Census)?"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupQ3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioQ3A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="A) 22" />
+
+        <RadioButton
+            android:id="@+id/radioQ3B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B) 121" />
+
+        <RadioButton
+            android:id="@+id/radioQ3C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C) 1,652" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonShowEvaluation3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Show Evaluation"
+        android:onClick="showEvaluationFromType2" />
+
+</LinearLayout>

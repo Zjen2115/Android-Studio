@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textViewQ2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q2. A train is moving at constant speed and you jump inside the train. What happens to your motion?"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupQ2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioQ2A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="A) You move together with the train" />
+
+        <RadioButton
+            android:id="@+id/radioQ2B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B) You fall backwards" />
+
+        <RadioButton
+            android:id="@+id/radioQ2C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C) You stay completely still in space" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonShowEvaluation2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:onClick="showEvaluationFromType1"
+        android:text="Show Evaluation" />
+
+</LinearLayout>
