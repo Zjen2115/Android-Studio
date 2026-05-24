@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Restaurant Menu</string>
+    <string name="dish_of_the_day">Dish of the day</string>
+    <string name="other_days">Other days</string>
+    <string name="back">Back</string>
+</resources>
