@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="Theme.trabalha2_studentgrades" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary brand color (button background, etc.) -->
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryVariant">#3700B3</item>
+        <item name="colorOnPrimary">#FFFFFFFF</item>
+
+        <!-- Secondary color (not super important for this project) -->
+        <item name="colorSecondary">#03DAC5</item>
+        <item name="colorOnSecondary">#FF000000</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor" tools:targetApi="l">#3700B3</item>
+    </style>
+
+</resources>

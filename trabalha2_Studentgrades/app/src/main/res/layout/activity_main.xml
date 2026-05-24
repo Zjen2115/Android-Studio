@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/grey_light">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/textViewTitleAverage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/average_title"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Student number -->
+    <TextView
+        android:id="@+id/textViewStudentNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="47857"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Student name -->
+    <TextView
+        android:id="@+id/textViewStudentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ketchy Jenifer.T"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="12dp" />
+
+    <!-- RecyclerView with years -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewYears"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

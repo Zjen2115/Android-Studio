@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trabalha2 StudentGrades</string>
+
+    <string name="average_title">Average grade per year</string>
+    <string name="student_number_label">Student Number : 47857</string>
+    <string name="student_name_label">Name : Ketchy Jenifer. D</string>
+
+    <string name="back">Back</string>
+</resources>
